@@ -1,0 +1,150 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin:0;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif, Geneva, Tahoma, sans-serif;
+}
+:root{
+    --cabeca:#212343;
+    --botao:#363A6D;
+    --fundo:#DDDDDD;
+    --transparente:#363a6d7f;
+}
+header{
+    background-color: var(--cabeca);
+    height: 80px;
+}
+
+    /*Logo dankiCode*/
+
+header img{               
+    width: 200px;
+    margin: 20px 40px;
+}
+
+    /*Fundo*/
+
+#fundo #fotofundo{
+    width: 100vw;
+    height: 670px;
+}
+#textfundo{
+    width: 40%;
+    position: absolute;
+    top: 210px;
+    background-color: var(--transparente);
+    left: 130px;
+    padding: 50px;
+}
+#textfundo ul{
+    color: white;
+    font-size: 17px;
+}
+#textfundo ul li{
+    margin-bottom: 20px;
+}
+
+    /*Formulário*/
+
+#divform{
+    width: 30%;
+    position: absolute;
+    top: 150px;
+    right: 80px;
+}
+#divform form{
+    border: 10px solid rgb(130, 130, 130);
+    width: 100%;
+    height: 500px;
+    color: rgb(130, 130, 130);
+    background-color: white;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+
+}
+#divform form h1{
+    text-align: justify;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+#divform form p{
+    margin-top: 15px;
+    text-align: left;
+    display: inline;
+    margin-left: 20px;
+}
+#divform form input{
+    height: 35px;
+    width: 370px;
+    margin-bottom: 20px;
+}
+
+#divform form #bt{
+    background-color: var(--botao);
+    color: white;
+    cursor: pointer;
+}
+
+        /*Final formulário*/
+
+        /*Texto de baixo*/
+
+#fundo #textbaixo{
+    background-color: var(--fundo);
+    width: 100%;
+    text-align: center;
+}
+#fundo p{
+    text-align: justify;
+    text-indent: 20px;
+    margin: 10px 0 50px 0;
+}
+#textbaixo #textlorem{
+    width: 50%;
+    margin: 50px auto 0px auto;
+}
+
+        /*Fim textbaixo fundo cinza*/
+        /*ultima parte*/
+#aprenda{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+#aprenda h1{
+    margin: 100px auto;
+    font-size: 23px;
+    color: var(--botao);
+    font-weight: 100;
+
+
+}
+#aprenda h2{
+    margin-top: 50px;
+}
+#aprenda img{
+    width: 70px;
+}
+#aprenda .explicacoes{
+    display: inline-block;
+    width: 25%;
+    margin-right: -4px;
+    margin: 0 30px;
+}
+
+        /*Fim ultima parte*/
+
+footer{
+    border-top: 2px solid var(--fundo);
+    text-align: center;
+    padding: 20px;
+}
+footer h2{
+    font-size: 15px;
+}
+footer p{
+    font-size: 12px;
+}
+
