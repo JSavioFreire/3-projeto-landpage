@@ -26,7 +26,7 @@ header img{
     /*Fundo*/
 
 #fundo #fotofundo{
-    width: 100vw;
+    width: 100%;
     height: 670px;
 }
 #textfundo{
@@ -72,13 +72,14 @@ header img{
 #divform form p{
     margin-top: 15px;
     text-align: left;
-    display: inline;
+    display:inline;
     margin-left: 20px;
 }
 #divform form input{
-    height: 35px;
-    width: 370px;
-    margin-bottom: 20px;
+    height: 10%;
+    width: 100%;
+    margin: 0 auto 20px auto ;
+    
 }
 
 #divform form #bt{
@@ -94,6 +95,7 @@ header img{
 #fundo #textbaixo{
     background-color: var(--fundo);
     width: 100%;
+    margin: 0 auto;
     text-align: center;
 }
 #fundo p{
@@ -148,3 +150,43 @@ footer p{
     font-size: 12px;
 }
 
+
+
+@media screen and (max-width: 1300px) {
+    #divform{
+        display: block;
+        position: inherit;
+        margin: auto;
+        width: 50%;
+
+    }
+
+
+}
+@media screen and (max-width: 850px) {
+    #textfundo{
+        width: 80%;
+        position: absolute;
+        top: 210px;
+        background-color: var(--transparente);
+        left: 10px;
+        padding: 50px;
+    }
+    #divform{
+        display: block;
+        position: inherit;
+        margin: auto;
+        width: 100%;
+
+    }
+    #textbaixo #textlorem{
+        width: 90%;
+    }
+    #aprenda h1{
+        margin-top: 50px;
+    }
+    #aprenda .explicacoes{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
